@@ -4,13 +4,11 @@ const person = {
   name: "John Doe",
   age: 80,
 };
-
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
-/ Creating variables
-var team = players;
-var team1 = players.slice(); // Creating a shallow copy of the players array
-var cap1 = Object.assign({}, person); // Creating a shallow copy of the person object
+var team=players;
+var team1=Object.assign(players);
 
+var cap1=Object.assign(person);
 
 window.players = players;
 window.person = person;
